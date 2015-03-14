@@ -1,0 +1,146 @@
+/*anotacion*/
+body
+{
+background-image: url("../img/pat1.png");
+}
+@media screen and (max-width: 1100px) {
+    body 
+    {
+  
+  /* background: linear-gradient(to bottom,  #f3e2c7 0%,#c19e67 50%,#b68d4c 51%,#e9d4b3 100%);
+       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3',GradientType=0 );*/
+   background-image: url("../img/pat2.png");
+    }
+  footer{
+  	background-color: #FF1FBA;
+  }
+  img{
+  	width: 40%;
+  	height: 40%;
+  }
+  div .texto {
+  	width: 700px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+    body 
+    {
+       /*background: linear-gradient(to bottom,  #cdeb8e 0%,#a5c956 100%);
+       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#a5c956',GradientType=0 );*/
+	background-image: url("../img/pat3.png");
+    }
+    footer{
+    	background-color: #940AFF;
+    }
+img{
+  	width: 20%;
+  	height: 20%;
+  }
+  div .texto{
+  	width: 300px;
+  }
+}
+
+
+/*----------------------------------fin de media screen  body-----------------------------*/
+header{
+	background-color:2px 3px 0px rgb(148, 245, 234);
+	border:2px solid gray;
+	border-radius: 30px 0px;
+	color: rgb(110, 167, 187);
+	margin:10px auto;
+	padding: 10px;
+	text-align: center;
+	text-shadow:2px 3px 4px #5EEAF9;;
+	width: 500px;
+	font-size: 15px;
+	font-family: 'Dancing Script', cursive;
+}
+
+div.wrap {
+  display: inline-block;
+ }
+.menu{
+	text-align: center;
+}
+.menu li{
+	display: inline-block;/*quita salto de linea (tabulador)q tiene la lista quetan todas en el mismo renglon*/
+	list-style: none;/*quita las viñetas de la lista*/
+	background: rgb(16, 228, 255);
+	border:1px solid rgb(114, 2, 169);
+	border-radius: 10px;
+	color: black;
+	cursor: pointer;/*para que aparezca una manito sobre el boton*/
+	padding:8px;
+	width: 120px;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.65);
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 20px;
+}
+.menu li:hover{ /* hace que pase un evento cuando paso el mouse sobre el boton*/
+	background:rgb(200, 10, 183); 
+	padding: 5px;
+}
+.wrap div{
+	display: inline-block;
+	float: left;
+}
+a{
+	text-decoration: none;
+}
+.photo{
+	margin-left: 200px;
+
+}
+.texto{
+	margin-left: 100px;
+	width: 600px;
+}
+footer{
+	text-align: center;
+	height: 40px;
+font-family: 'Shadows Into Light', cursive;
+}
+p{
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 23px;
+}
+#piolin {-webkit-animation: anim2 ease-in-out 3s infinite alternate; }
+@-webkit-keyframes anim2
+{
+   from {left: 0px;   -webkit-transform: scale(1.0) rotate(0deg)   }
+   50%  {left: 250px; -webkit-transform: scale(0.8) rotate(10deg)  }
+   to   {left: 500px; -webkit-transform: scale(1.2) rotate(-20deg) }
+}
+#piolin{
+	margin-bottom: 0px;
+	margin-top: 0px;
+
+}
+.sprite {
+    background-image: url("../img/spritesheet.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+.sprite-facebook {
+    width: 32px;
+    height: 33px;
+    background-position: -47px -48px;
+}
+.sprite-twitter {
+    width: 32px;
+    height: 33px;
+    background-position: -173px -5px;
+}
+
+.sprite-github {
+    width: 33px;
+    height: 33px;
+    background-position: -131px -48px;
+}
+.sprite-youtube {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -175px;
+}
